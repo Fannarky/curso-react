@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from './components/header/header';
+import Main from './pages/main'
 
 const App = () => (
   <div className="App">
       <Header  />
+      <Main />
     </div>
 );
 
